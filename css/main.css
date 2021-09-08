@@ -1,0 +1,250 @@
+
+.navbar{
+    background:linear-gradient(to right, #111 80%, rgb(121, 116, 116));
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 456254;
+}
+.navbar .navbar-brand img{
+    width: 80px;
+    height: 30px;
+
+}
+.navbar .collapse ul li a.nav-link{
+    color: rgb(139, 137, 132);
+    font-family:fantasy;
+    font-weight: 300;
+    margin: 0px 10px;
+}
+
+
+#about{
+    width: 100%;
+background: linear-gradient(to right, rgb(36, 34, 36) 80%, #bbb);
+  padding: 50px 0px;
+    margin-bottom: 50px;
+}
+#about>h1{
+    text-align:center;
+    color: rgb(240, 74, 74);
+}
+
+#about .hr1{
+    width: 50%;
+    height: 2px;
+    background-image: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
+    border-radius: 95%;
+    margin: auto;
+}
+#about .hr2{
+    border: 1px dashed rgb(182, 4, 4);
+    width: 35%;
+}
+#about .hr2:last-of-type{
+    width: 25%;
+}
+
+#about .container .genah img{
+    width: 100%;
+    height: 120%;
+   
+}
+
+#about .container .kalam  .text{
+color: rgb(67, 56, 221);
+margin-bottom: 40px;
+font-family:monospace, cursive;
+}
+
+#gallary{
+    width: 100%;
+    background-image: linear-gradient(to right, #111 80%, #bbb);
+        padding: 50px 0px;
+    margin-bottom: 50px;
+}
+#gallary>h1{
+    text-align:center;
+    color: rgb(228, 62, 62);
+    text-transform: capitalize;
+}
+
+#gallary .hr1{
+    width: 50%;
+    height: 2px;
+    background-image: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
+    border-radius: 95%;
+    margin: auto;
+}
+#gallary .hr2{
+    border: 1px dashed white;
+    width: 35%;
+}
+#gallary .hr2:last-of-type{
+    width: 25%;
+}
+
+#gallary .container .nav-pills{
+    text-transform:none;
+    margin-top: 75px ;
+    border: 1px solid black ;
+    border-radius: 20px;
+
+
+}
+#gallary .container .nav-pills .nav-item {
+    color: black !important;
+    font-weight: bold;
+    border-radius: 20px;
+   
+    padding: 5px;
+    cursor: pointer;
+}
+
+#gallary .container .nav-pills .nav-item:hover{
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.active1{
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#gallary .container > div{
+    display: none;
+}
+
+#gallary .container .show1{
+    display: block;
+}
+#gallary .container .show2{
+    display: block;
+}
+#gallary .container .show3{
+    display: block;
+}
+
+.nav-pills .nav-item a:hover{
+    background-color: white !important;
+    color: black !important;
+    font-weight: bold;
+}
+
+#gallary .container .box{
+margin-top: 50px;
+height: 250px;
+position: relative;
+border-radius: 50px;
+overflow: hidden;
+cursor: pointer;
+}
+
+
+
+
+
+#gallary .container .box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+#contact{
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(6, 101, 117) 80%, #bbb);
+        padding: 50px 0px;
+    margin-bottom: 50px;
+}
+#contact>h1{
+    text-align:center;
+    color: rgb(87, 0, 0);
+    text-transform: capitalize;
+}
+
+#contact .hr1{
+    width: 50%;
+    height: 2px;
+    background-image: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
+    border-radius: 95%;
+    margin: auto;
+}
+#contact .hr2{
+    border: 1px dashed white;
+    width: 35%;
+}
+#contact .container{
+    padding-top: 50px;
+}
+#contact .hr2:last-of-type{
+    width: 25%;
+}
+#contact .left{
+    margin-bottom: 40px;
+}
+#contact .left h1{
+    color: white;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#contact .left form > div label{
+    color: white;
+}
+
+#contact .left form > div input{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+    padding-top: 50px;
+    background-color: #036b66;
+}
+
+
+footer h2{
+  
+    font-size: 20px;
+    color: white;
+}
+footer p,footer a{
+    color: rgb(202, 8, 8);
+}
+footer p{
+    line-height: 31px;
+}
+
+footer a{
+    display: block;
+    margin-bottom: 8px;
+  
+}
+
+footer a:hover{
+    margin-left: 5px;
+    text-decoration:none;
+    color: rgb(24, 4, 4);
+    
+}
+footer .container >hr{
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+footer .container .down{
+    margin: auto;
+    color: rgb(31, 2, 2);
+    overflow: hidden;
+    
+}
+html{
+    scroll-behavior:smooth;
+}
